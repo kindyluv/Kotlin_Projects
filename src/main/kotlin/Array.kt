@@ -14,4 +14,6 @@ fun main(args: Array<String>) {
     println(a[1])
     a[1]=12
     println(a[1])
+    val v: Int = a[2] + a[4]
+    println(v)
 }
