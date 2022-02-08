@@ -20,4 +20,10 @@ fun main(args: Array<String>) {
     val cloudService = arrayOf<String>("Microsoft", "Amazon", "Google", "Heroku")
     println(cloudService[0])
     println(cloudService[3])
+
+    println(cloudService.get(0))
+    println(cloudService.get(3))
+
+    cloudService.set(3, "Digital Ocean")
+    println(cloudService.get(3))
 }
