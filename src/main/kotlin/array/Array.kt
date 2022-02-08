@@ -16,4 +16,8 @@ fun main(args: Array<String>) {
     println(a[1])
     val v: Int = a[2] + a[4]
     println(v)
+
+    val cloudService = arrayOf<String>("Microsoft", "Amazon", "Google", "Heroku")
+    println(cloudService[0])
+    println(cloudService[3])
 }
