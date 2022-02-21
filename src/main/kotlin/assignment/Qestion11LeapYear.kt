@@ -1,6 +1,8 @@
+package assignment
+
 fun main(args: Array<String>) {
     print("Enter a year: ")
-    var year = readLine()!!.toInt()
+    val year = readLine()!!.toInt()
     println()
 
     when(year % 4 == 0 || year % 100 == 0 || year % 400 == 0){
