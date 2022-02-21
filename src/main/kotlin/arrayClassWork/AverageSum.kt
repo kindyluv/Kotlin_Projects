@@ -12,10 +12,11 @@ fun average(array: Array<Int>){
     var average: Double = 0.0
 
     for (i in array){
-        sum = sum + i
-    }
+        sum += i
 
+    }
     average = (sum / 2).toDouble()
+
     println("Average sum of $sum = $average")
 }
 
